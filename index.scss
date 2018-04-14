@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;//默认属性
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+  background-color: red;
+  width: 700px;
+  .item {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+}
